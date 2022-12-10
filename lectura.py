@@ -9,7 +9,7 @@ PASS = 'bojylcsebjrhegrw'
 
 server = imaplib.IMAP4_SSL(SERVER, 993)
 
-#4) Iniciar sesion:
+#4) Iniciar sesión:
 
 server.login(USER, PASS)
 
@@ -23,3 +23,4 @@ flag=str((data[0][1]))
 print (flag)
 #str(flag.startswith("ON21"))
 
+#
