@@ -15,8 +15,8 @@ v0.title("Control GPIO")
 v0.geometry("700x400+0+0")
 
 # zona de Funciones
-img_on=PhotoImage(file="/home/jmarin/Downloads/on.gif")
-img_off=PhotoImage(file="/home/jmarin/Downloads/off.gif")
+img_on=PhotoImage(file="on.gif")
+img_off=PhotoImage(file="off.gif")
 texto2=tkFont.Font(family="Helvetica",size=70)
 def update1():
               #os.system("sudo cat /home/josue_marin/estado.txt > estado.txt")
@@ -90,10 +90,10 @@ def ejecutaradio():
                    r=int(radio.get())
                    if (r==1):
                              os.system("sudo bash /home/josue_marin/on27.sh")
-                                  os.system("sudo bash /etc/ssmtp/correo1.sh")
+                             os.system("sudo bash /etc/ssmtp/correo1.sh")
                    if (r==2):
                              os.system("sudo bash /home/josue_marin/off27.sh")
-                                  os.system("sudo bash /etc/ssmtp/correo2.sh")
+                             os.system("sudo bash /etc/ssmtp/correo2.sh")
 
 def limpiarcampos():
                      horai.set('')
