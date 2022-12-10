@@ -1,9 +1,9 @@
 import imaplib
 import os
 SERVER = 'imap.gmail.com'
-USER = '{su user}'
-PASS = '{su token}'
-MAIL = '{su email}'
+USER = 'jmarin'
+PASS = 'bojylcsebjrhegrw'
+MAIL = 'josue.marin@usap.edu'
 
 #3) Conectar con en el servidor:
 
