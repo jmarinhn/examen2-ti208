@@ -2,14 +2,14 @@ import imaplib
 import os
 SERVER = 'imap.gmail.com'
 USER = 'jmarin'
+MAIL = "josue.marin@usap.edu"
 PASS = 'bojylcsebjrhegrw'
-MAIL = 'josue.marin@usap.edu'
 
 #3) Conectar con en el servidor:
 
 server = imaplib.IMAP4_SSL(SERVER, 993)
 
-#4) Iniciar sesión:
+#4) Iniciar sesion:
 
 server.login(USER, PASS)
 
