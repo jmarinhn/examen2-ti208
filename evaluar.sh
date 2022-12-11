@@ -8,7 +8,7 @@ while true
         if [[ $valor1 == "OFF21" && $valor2 == "" ]]
             then
                 echo 0 > estado.txt
-        elif [[ $valor2 = "ON21" && $valor1 == "" ]]
+        elif [[ $valor2 == "ON21" && $valor1 == "" ]]
             then
                 echo 1 > estado.txt
         fi
