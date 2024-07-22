@@ -2,7 +2,7 @@ import imaplib
 import os
 SERVER = 'imap.gmail.com'
 USER = 'josue.marin@usap.edu'
-PASS = 'zphtozzelivdsfqa'
+PASS = '####################'
 MAIL = "josue.marin@usap.edu"
 
 #3) Conectar con en el servidor:
